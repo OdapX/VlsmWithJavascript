@@ -1,3 +1,8 @@
+// major_network : put the major network u need to subnet
+// subnets : You need to fill the name and the number of hosts needed for each one .
+//NOTE : u need to put the subnets in order of hosts ,subnet of big host number first then the next etc..
+//the subnets automatic ordering will be added soon .
+
 let major_network = "172.16.192.0";
 let CIDR_major = "20";
 const subnets = [
